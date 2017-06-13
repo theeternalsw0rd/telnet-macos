@@ -1,0 +1,9 @@
+Makefile
+config.h
+config.status
+m4/Makefile
+stamp-h1
+telnet/.deps/
+telnet/Makefile
+telnetd/.deps/
+telnetd/Makefile
