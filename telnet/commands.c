@@ -1817,6 +1817,7 @@ env_find (unsigned char *var)
   return (NULL);
 }
 
+extern char **environ;
 void
 env_init (void)
 {

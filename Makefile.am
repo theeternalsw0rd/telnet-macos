@@ -3,7 +3,7 @@
 #
 AUTOMAKE_OPTIONS = 1.8 gnits dist-bzip2
 #
-SUBDIRS = m4 telnet telnetd
+SUBDIRS = m4 telnet
 
 CLEANFILES = *~
 

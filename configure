@@ -3279,7 +3279,7 @@ _ACEOF
 fi
 
 
-                                        ac_config_files="$ac_config_files Makefile m4/Makefile telnet/Makefile telnetd/Makefile"
+                                        ac_config_files="$ac_config_files Makefile m4/Makefile telnet/Makefile"
 
 cat >confcache <<\_ACEOF
 # This file is a shell script that caches the results of configure
@@ -3833,7 +3833,6 @@ do
   "Makefile" ) CONFIG_FILES="$CONFIG_FILES Makefile" ;;
   "m4/Makefile" ) CONFIG_FILES="$CONFIG_FILES m4/Makefile" ;;
   "telnet/Makefile" ) CONFIG_FILES="$CONFIG_FILES telnet/Makefile" ;;
-  "telnetd/Makefile" ) CONFIG_FILES="$CONFIG_FILES telnetd/Makefile" ;;
   "depfiles" ) CONFIG_COMMANDS="$CONFIG_COMMANDS depfiles" ;;
   "config.h" ) CONFIG_HEADERS="$CONFIG_HEADERS config.h" ;;
   *) { { echo "$as_me:$LINENO: error: invalid argument: $ac_config_target" >&5
