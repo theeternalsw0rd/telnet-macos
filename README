@@ -1,6 +1,9 @@
+For those of us still running ancient networking gear.
 
-This is a port of OpenBSD telnet tools for SuSE Linux.
-The OpenBSD telnet tools are maintained and contains
-all security fixes.
+This is a port of OpenBSD telnet initially ported for Suse Linux and reported for macOS High Sierra. The built-in client was discontinued.
 
-  Thorsten Kukuk <kukuk@suse.de>
+Unlike the initial port, this package does not include telnetd.
+
+I've been searching for the original OpenBSD source files to ensure any updates have been applied, but I cannot find them anywhere. If you know where they are, please file an issue.
+
+The original package was pulled from Gentoo's distfiles as the original port at http://ftp.suse.com/pub/people/kukuk/ipv6/telnet-bsd-1.2.tar.bz2 now returns a 404.
