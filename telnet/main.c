@@ -95,7 +95,7 @@ main (int argc, char *argv[])
   rlogin = (strncmp (prompt, "rlog", 4) == 0) ? '~' : _POSIX_VDISABLE;
   autologin = -1;
 
-  while ((ch = getopt (argc, argv, "78DEKLS:X:ab:cde:fFk:l:n:rt:x")) != -1)
+  while ((ch = getopt (argc, argv, "78DEKLS:X:ab:cde:fFk:l:n:rt:vx")) != -1)
     {
       switch (ch)
 	{
@@ -213,6 +213,11 @@ main (int argc, char *argv[])
 	case 'x':
 	  fprintf (stderr,
 		   "%s: Warning: -x ignored, no ENCRYPT support.\n", prompt);
+	  break;
+	case 'v':
+	  fprintf (stdout,
+		   "%s\n", "1.2");
+	  return 0;
 	  break;
 	case '?':
 	default:
